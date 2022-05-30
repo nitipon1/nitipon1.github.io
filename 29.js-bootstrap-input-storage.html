@@ -175,7 +175,7 @@
             l_sphone = JSON.parse(localStorage.getItem('sphone'))
             // console.log(l_sid)
             for (let i = 0; i < l_sid.length; i++) {
-                show_data = l_sid[i] + ' ' + l_sname[i] + ' ' + l_sphone[i] + ' ' + '<br>'
+                show_data += l_sid[i] + ' ' + l_sname[i] + ' ' + l_sphone[i] + ' ' + '<br>'
                 document.getElementById('output').innerHTML = show_data
             }
             show_data = ''
